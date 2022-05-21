@@ -1,6 +1,6 @@
 module.exports = {
     prefix: "l!", // Set your bot Prefix
-    serverId: "391807239893024793",
+    serverId: "391807239893024793", //391807239893024793 || 965113944182235206
     name: 'LatinoLand', // Set your bot name
     shortUrl: 'latinoland.net', // 
     URL: 'https://latinoland.net', //
@@ -29,5 +29,10 @@ module.exports = {
 
     welcome: {
         channel: '451907624158363653' //966195545767051284   || 451907624158363653
+    },
+
+    check: {
+        channel: '',
+        rol: '977052948582531152'
     }
 }

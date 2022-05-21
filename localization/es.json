@@ -56,7 +56,7 @@
     "command.help.category": "Seleccione una categoría",
     "command.help.title": "Menú de ayuda",
     "command.help.description.0": "Hola, soy",
-    "command.help.description.1": "I am a multipurpose bot in charge of this server.",
+    "command.help.description.1": "Soy un bot multiproposito encargo de este servidor.",
     "command.help.description.2": "¿Qué esperas? Seleccione una categoría para divertirnos juntos.",
     "command.help.author.command": "Comando",
     "command.help.commands": "Comandos",
@@ -109,5 +109,6 @@
     "command.userinfo.creation": "Creación de la cuenta",
     "command.userinfo.login": "Ingreso al servidor",
     "command.userinfo.roles": "Roles",
-    "command.userinfo.not_playing": "No está jugando"
+    "command.userinfo.not_playing": "No está jugando",
+    "welcome.title": "Bienvenido"
 }

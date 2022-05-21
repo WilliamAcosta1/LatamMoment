@@ -11,25 +11,15 @@ const botConfig = require("@config/bot.js");
 console.logLevel = process.env.LOGLEVEL || 3;
 
 const client = new Client({
+    restTimeOffset: 0,
+    partials: ['MESSAGE', 'CHANNEL', 'REACTION', 'GUILD_MEMBER', 'USER'],
     intents: [
         "GUILDS", "GUILD_MESSAGES", "DIRECT_MESSAGES",
         "GUILD_MEMBERS", "GUILD_BANS", "GUILD_EMOJIS_AND_STICKERS",
         "GUILD_INTEGRATIONS", "GUILD_WEBHOOKS", "GUILD_INVITES",
         "GUILD_VOICE_STATES", "GUILD_PRESENCES", "GUILD_MESSAGE_REACTIONS",
-        "DIRECT_MESSAGES"
+        "DIRECT_MESSAGES", "GUILD_EMOJIS_AND_STICKERS"
     ]
-});
-
-client.on("guildMemberAdd", member => {
-
-    let embed = new Discord.MessageEmbed()
-
-        .setColor(botConfig.embeds.color)
-        .setDescription(`> **<@${member.user.id}> ha llegado a Latinoland!** 🎉\n Bienvenido a la comunidad de Latinoland en Discord!\n\n💻 Pasa el rato e interactúa con otros miembros de la comunidad!\n\n\`\`\`Sé respetuoso con los demas miembros de la comunidad y no olvides leer y respetar nuestras reglas. 📝 \`\`\`\n**Miembros totales »** ${client.guilds.cache.get(botConfig.serverId).memberCount}\n**Página web »** https://web.latinoland.net/`)
-        .setThumbnail(member.user.avatarURL())
-        .setTimestamp()
-
-    client.channels.cache.get(botConfig.welcome.channel).send({ embeds: [embed] })
 });
 
 if (process.env.DEBUG == true || process.env.DEBUG == 'true') {

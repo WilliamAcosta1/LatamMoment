@@ -34,7 +34,7 @@ module.exports = {
             settings.prefix = 'l!';
         }
         if (settings.lang === undefined) {
-            settings.lang = 'es';
+            settings.lang = 'en';
         }
         if (settings.public === undefined) {
             settings.public = false;
