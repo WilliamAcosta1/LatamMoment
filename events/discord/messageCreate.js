@@ -73,7 +73,9 @@ module.exports = {
                             message.reply(response);
                         } catch (e) {
                             console.warn('Derieri down');
-                            message.reply("Lo siento, mi cerebro está excedido, por favor intente hablar conmigo en unos minutos.");
+                            message.reply({
+                                content: 'cleverbot.error'.trans(), allowedMentions: { repliedUser: false }
+                            });
                             // try {
                             // 	var response = await chatbot.hablar(text);
                             // 	message.reply(response);
