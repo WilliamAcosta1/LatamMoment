@@ -34,5 +34,8 @@ module.exports = {
     check: {
         channel: '',
         rol: '977052948582531152'
+    },
+    suggestion: {
+        channel: '834911478700048384'
     }
 }
