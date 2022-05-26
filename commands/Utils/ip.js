@@ -21,7 +21,7 @@ module.exports = {
 			.setDescription("Aqui te dejo la ip del servidor. <a:irongolem:979227313801670696> \n\n**NOTA:** El puerto es por defecto asi que no lo modifiques.\n⠀⠀")
 			.addField('<:java:979227213754949712> Java edition', '**┕ **' + '`latinoland.net`', true)
 			.addField('<:bedrock:979227059022884924> Bedrock edition', '**┕ **' + '`latinoland.net`', true)
-			.addField('<a:MC_XP:979230021954723880> Estado:', '**┕ **' + '`Cerrado teporalmene`')
+			.addField('<a:MC_XP:979230021954723880> Estado:', '**┕ **' + '`Cerrado teporalmente`')
 			.setColor(botConfig.embeds.color)
 			.setFooter({ text: getFooter(message.member.user.tag), iconURL: message.author.avatarURL({ dynamic: true }) })
 
