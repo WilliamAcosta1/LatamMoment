@@ -36,8 +36,6 @@ module.exports = {
 			.setColor(botConfig.embeds.color)
 			.setFooter({ text: getFooter(message.member.user.tag), iconURL: message.author.avatarURL({ dynamic: true }) })
 
-		return message.reply({
-			embeds: [embed], allowedMentions: { repliedUser: false }
-		});
+		return message.reply({ embeds: [embed], allowedMentions: { repliedUser: false } });
 	}
 } 

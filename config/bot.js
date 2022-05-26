@@ -10,11 +10,11 @@ module.exports = {
         status: "idle", // The bot's status [online, idle, dnd, invisible]
         type: "COMPETING",// Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
         message: "Latinoland", // Your bot status message
-      },
+    },
 
     botInvite: { //
         inviteBanner: "https://media.discordapp.net/attachments/975916216256430091/975916252352630884/LatinoBanner.png?width=1440&height=485",
-        URLInvite: "https://zumito.ga/invite",
+        URLInvite: "https://latinoland.net/invite",
         URLSupport_Server: "https://latinoland.net/server",
         URLWebsite: "https://latinoland.net"
     },
@@ -35,6 +35,7 @@ module.exports = {
         channel: '',
         rol: '977052948582531152'
     },
+
     suggestion: {
         channel: '834911478700048384'
     }
