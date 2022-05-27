@@ -29,7 +29,7 @@ module.exports = {
 				.setColor(botConfig.embeds.color)
 				.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
 				.setDescription(`Autor » <@${message.author.id}>\nSugerencia ↴\n\`\`\`${sugerencia}\`\`\``)
-				.setFooter({ text: `Usa el comando /sugiero`, iconURL: client.user.avatarURL({ dynamic: true }) })
+				.setFooter({ text: `Usa el comando l!sugiero`, iconURL: client.user.avatarURL({ dynamic: true }) })
 				.setTimestamp()
 
 			message.channel.send(`Se ha enviado correctamente la sugerencia al canal <#${botConfig.suggestion.channel}>.`)
