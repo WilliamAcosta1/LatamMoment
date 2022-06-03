@@ -2,6 +2,7 @@
 const Discord = require('discord.js');
 const botConfig = require("@config/bot.js");
 var { image_search } = require('duckduckgo-images-api');
+const { getFooter } = require("@modules/utils/data.js");
 const emoji = require('@config/emojis.js');
 require("@modules/localization.js");
 
