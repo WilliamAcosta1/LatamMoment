@@ -71,7 +71,7 @@
     "@jsdevtools/version-bump-prompt": "^6.1.0"
   },
   "engines": {
-    "node": ">=17.9.0",
-    "npm": ">=8.9.0"
+    "node": "17.9.0",
+    "npm": "8.9.0"
   }
 }
