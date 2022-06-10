@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const { getFooter } = require("@modules/utils/data.js");
 const botConfig = require('@config/bot.js');
 require("@modules/localization.js");
+const emoji = require('@config/emojis.js');
 
 module.exports = {
 	name: "suggestions",
@@ -37,12 +38,8 @@ module.exports = {
 			client.channels.cache.get(botConfig.suggestion.channel).send({ embeds: [embed] })
 
 				.then(msg => {
-
-					const Favor = message.guild.emojis.cache.find(emoji => emoji.name === 'afavor')
-					const Contra = message.guild.emojis.cache.find(emoji => emoji.name === 'encontra')
-
-					msg.react(Favor);
-					msg.react(Contra);
+					msg.react(emoji.check);
+					msg.react(emoji.deny);
 				})
 
 		}
