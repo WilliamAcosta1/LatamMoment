@@ -51,18 +51,12 @@ module.exports = {
 
             client.channels.cache.get(botConfig.welcome.channel).send({ files: [attachment] })
 
-        }
-        //roles
+             //roles
         const guild = member.guild;
 
         member.roles.add('896825169035796530');
 
-        /*member.roles.add('452092542293377024'); //usuario
-        member.roles.add('551530251268653148'); //logros
-        member.roles.add('552032387240951808'); //incompleto
-        member.roles.add('551221521754882088'); //info basica
-        member.roles.add('552032420786864129'); //incompleta
-        member.roles.add('551854040128946187'); //rol*/
+        }
 
 
 
