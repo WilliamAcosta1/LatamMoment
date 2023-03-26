@@ -1,6 +1,6 @@
 {
   "name": "zumito",
-  "version": "1.2.24",
+  "version": "1.2.23",
   "description": "Multipurpose discord bot",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@discordjs/opus": "^0.8.0",
-    "@discordjs/rest": "^0.5.0",
+    "@discordjs/rest": "^0.6.0",
     "@discordjs/voice": "^0.8.0",
     "autocorrect": "^1.2.0",
     "better-logging": "^4.5.0",
@@ -43,7 +43,7 @@
     "error-stack-parser": "^2.1.4",
     "espchatbotapi": "^2.0.6",
     "express": "^4.17.3",
-    "express-jwt": "^6.1.1",
+    "express-jwt": "^8.2.0",
     "express-validator": "^6.14.0",
     "ffmpeg-static": "^4.4.1",
     "fs-readdir-recursive": "^1.1.0",
@@ -60,7 +60,7 @@
     "remote-file-size": "^3.0.5",
     "utf-8-validate": "^5.0.5",
     "uuid": "^8.3.2",
-    "zumito-framework": "^1.1.51"
+    "zumito-framework": "^1.1.61"
   },
   "devDependencies": {
     "@jsdevtools/version-bump-prompt": "^6.1.0",
