@@ -1,4 +1,15 @@
 {
+    "arguments": {
+        "user": {
+            "name": "usuario",
+            "description": "Mostrar información de un usuario especifico"
+        }
+    },
+    "args": {
+        "user":{
+            "description": "Mostrar información de un usuario especifico"
+        }
+    },
     "description": "Muestra informacion detallada de un usuario",
     "title": "Informacón del usuario",
     "user": "**Usuario:** {name}",
@@ -11,11 +22,5 @@
     "roles": "**Roles:**",
     "noNickname": "Sin apodo",
     "noPlaying": "No esta jugando",
-    "noRoles": "Sin roles",
-    "arguments": {
-        "user": {
-            "name": "Usuario",
-            "description": "El usuario que quieres ver su información"
-        }
-    }
+    "noRoles": "Sin roles"
 }
